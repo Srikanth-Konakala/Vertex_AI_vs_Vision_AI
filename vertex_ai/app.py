@@ -6,9 +6,9 @@ import time
 app = Flask(__name__)
 
 # Vertex AI endpoint details
-PROJECT_ID = "acs-course-new-449514"  # Replace with your Project ID
-ENDPOINT_ID = "5659936215093215232"  # Replace with your Endpoint ID
-LOCATION = "europe-west4"  # Replace with your region
+PROJECT_ID = "acs-course-new-449514" 
+ENDPOINT_ID = "5659936215093215232"  
+LOCATION = "europe-west4"  
 
 # Initialize Vertex AI
 aiplatform.init(project=PROJECT_ID, location=LOCATION)
